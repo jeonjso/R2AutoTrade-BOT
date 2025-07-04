@@ -16,17 +16,16 @@ Bot trading R2 Testnet untuk memaksimalkan sinyal buy/sell token R2.
 ## ⚙️ Cara Install & Jalankan
 
 1. **Clone repository:**
-
-git clone https://github.com/jeonjso/R2AutoTrade-BOT.git
-
-cd R2AutoTrade-BOT
-
+   
+- `git clone https://github.com/jeonjso/R2AutoTrade-BOT.gitt`  
+- `cd R2AutoTrade-BOT`
+- 
 2. **Siapkan Python 3.8+**  
 (bisa pakai Termux, Ubuntu, WSL, MacOS, atau VPS)
 
 3. **Install dependencies:**
 
-pip install web3 eth-account rich
+`pip install web3 eth-account rich`
 
 4. **Buat file konfigurasi:**
 
@@ -52,7 +51,7 @@ pip install web3 eth-account rich
 
 5. **Jalankan bot:**
 
-python jeon.py
+`python jeon.py`
 
 ---
 
