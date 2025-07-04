@@ -1,10 +1,25 @@
-http://ztfkqqkr:8eh8nn8t4803@38.154.227.167:5868
-http://ztfkqqkr:8eh8nn8t4803@198.23.239.134:6540
-http://ztfkqqkr:8eh8nn8t4803@207.244.217.165:6712
-http://ztfkqqkr:8eh8nn8t4803@107.172.163.27:6543
-http://ztfkqqkr:8eh8nn8t4803@216.10.27.159:6837
-http://ztfkqqkr:8eh8nn8t4803@136.0.207.84:6661
-http://ztfkqqkr:8eh8nn8t4803@64.64.118.149:6732
-http://ztfkqqkr:8eh8nn8t4803@142.147.128.93:6593
-http://ztfkqqkr:8eh8nn8t4803@104.239.105.125:6655
-http://ztfkqqkr:8eh8nn8t4803@206.41.172.74:6634
+# ===========================
+# Example proxy.txt
+# Format supported:
+# 
+# HTTP Proxy without authentication:
+#   http://IP:PORT
+#
+# HTTP Proxy with authentication:
+#   http://USERNAME:PASSWORD@IP:PORT
+#
+# SOCKS5 Proxy (optional, requires PySocks):
+#   socks5://USERNAME:PASSWORD@IP:PORT
+#
+# Lines starting with # are comments.
+# Leave empty lines if needed.
+# ===========================
+
+# HTTP proxy without auth
+http://123.123.123.123:8080
+
+# HTTP proxy with user/pass
+http://myuser:mypassword@111.222.333.444:3128
+
+# SOCKS5 proxy
+socks5://socksuser:sockspass@55.66.77.88:1080
