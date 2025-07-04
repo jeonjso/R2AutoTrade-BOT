@@ -18,6 +18,7 @@ Bot trading R2 Testnet untuk memaksimalkan sinyal buy/sell token R2.
 1. **Clone repository:**
 
 git clone https://github.com/jeonjso/R2AutoTrade-BOT.git
+
 cd R2AutoTrade-BOT
 
 2. **Siapkan Python 3.8+**  
